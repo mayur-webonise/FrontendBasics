@@ -1,0 +1,157 @@
+.navbar {
+    height: 60px;    
+    width: 1680px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+
+}
+.logo {
+    width: 273px;
+    height: 60px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+
+}
+.logo img {
+    width: 87.7px;
+    height: 32px;
+}
+
+.buttons {
+
+    position: absolute;
+    right: 0;
+    margin-right: 80px;
+    padding: 12px;
+
+}
+.navigations {
+    
+    margin-left: 273px;
+    
+    
+}
+.list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.navEach{
+    padding-left: 40px;
+    color:blue;
+}
+.buttons button {
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.frontButton {
+    width: 130px;
+    height: 40px;
+}
+
+.frontImage {
+    width: 1680px;
+    height: 260px;
+    background-image: url(images/frontImg.jpg);
+    object-fit: contain;
+    /* position: relative; */
+    background-size: contain;
+    text-align: center;
+    padding-top: 632px;
+    
+}
+
+.frontImage p {
+    color: white;
+    /* position: absolute; */
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.content1 {
+    width: 1680px;
+}
+.contentbody {
+    display: flex;
+}
+
+#contenttitle{
+    font-size: 48px;
+    padding-left: 80px;
+    padding-top: 120px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contentSubTitle{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contentBody1 {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 50%;
+    justify-content: center;
+}
+
+
+.contentButton{
+    width: 130px;
+    height: 40px;
+    border-radius: 2px blue;
+    color: blue
+    ;
+}
+.contenttitle{
+    width: 750px;
+}
+.content2 {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+   
+
+    
+}
+.content2Image{
+   
+   width: 50%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.footerLeft {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-content: space-evenly;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+.footerRight{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: inherit;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+
+}
+.footerMiddle{
+    width: 20%;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}
