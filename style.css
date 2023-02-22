@@ -132,7 +132,7 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    align-content: space-evenly;
+    justify-content: space-between;
     margin-left: 80px;
     margin-right: 80px;
 
@@ -142,7 +142,7 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    text-align: inherit;
+    justify-content: space-between;
     margin-left: 80px;
     margin-right: 80px;
     
@@ -150,8 +150,14 @@
 }
 .footerMiddle{
     width: 20%;
+    display: flex;
+    justify-content: center;
 }
 .footer{
     display: flex;
     flex-direction: row;
+}
+.footerMiddle img {
+    width: 87.7px;
+    height: 32px;
 }
