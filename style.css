@@ -1,21 +1,23 @@
 .navbar {
-    height: 60px;    
+    height: 60px;
     width: 1680px;
     display: flex;
     flex-direction: row;
     position: relative;
-    
+
 
 }
+
 .logo {
     width: 273px;
     height: 60px;
-   align-items: center;
-   display: flex;
-   justify-content: center;
-   position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
 
 }
+
 .logo img {
     width: 87.7px;
     height: 32px;
@@ -29,27 +31,32 @@
     padding: 12px;
 
 }
+
 .navigations {
-    
+
     margin-left: 273px;
-    
-    
+
+
 }
+
 .list {
     list-style-type: none;
     display: flex;
     flex-direction: row;
 }
-.navEach{
+
+.navEach {
     padding-left: 40px;
-    color:blue;
+    color: blue;
 }
+
 .buttons button {
     width: 130px;
     height: 40px;
     font-size: 15px;
     font-weight: 500;
 }
+
 .frontButton {
     width: 130px;
     height: 40px;
@@ -64,7 +71,7 @@
     background-size: contain;
     text-align: center;
     padding-top: 632px;
-    
+
 }
 
 .frontImage p {
@@ -77,17 +84,19 @@
 .content1 {
     width: 1680px;
 }
+
 .contentbody {
     display: flex;
 }
 
-#contenttitle{
+#contenttitle {
     font-size: 48px;
     padding-left: 80px;
     padding-top: 120px;
     font-family: 'Montserrat', sans-serif;
 }
-.contentSubTitle{
+
+.contentSubTitle {
     font-size: 24px;
     font-weight: 700;
 }
@@ -102,27 +111,29 @@
 }
 
 
-.contentButton{
+.contentButton {
     width: 130px;
     height: 40px;
     border-radius: 2px blue;
-    color: blue
-    ;
+    color: blue;
 }
-.contenttitle{
+
+.contenttitle {
     width: 750px;
 }
+
 .content2 {
     display: flex;
     margin-top: 80px;
     margin-bottom: 80px;
-   
 
-    
+
+
 }
-.content2Image{
-   
-   width: 50%;
+
+.content2Image {
+
+    width: 50%;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -137,7 +148,8 @@
     margin-right: 80px;
 
 }
-.footerRight{
+
+.footerRight {
     width: 40%;
     display: flex;
     flex-direction: row;
@@ -145,18 +157,21 @@
     justify-content: space-between;
     margin-left: 80px;
     margin-right: 80px;
-    
+
 
 }
-.footerMiddle{
+
+.footerMiddle {
     width: 20%;
     display: flex;
     justify-content: center;
 }
-.footer{
+
+.footer {
     display: flex;
     flex-direction: row;
 }
+
 .footerMiddle img {
     width: 87.7px;
     height: 32px;
